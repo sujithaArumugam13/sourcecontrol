@@ -10,3 +10,9 @@ app.config['MAX_CONTENT_LENGTH'] = 10000* 1024 * 1024
 @app.route("/")
 def helloWorld():
   return render_template('index.html')
+
+
+@app.route('/classify_cols',methods=['GET'])
+def classify_cols():
+    jsonString=""
+    return jsonString
