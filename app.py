@@ -16,3 +16,8 @@ def helloWorld1():
   return render_template('index.html')
 
 
+
+@app.route('/classify_cols',methods=['GET'])
+def classify_cols():
+    jsonString=""
+    return jsonString
