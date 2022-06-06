@@ -36,6 +36,7 @@ def classify_cols():
     return jsonString
 
 
+#Test changes
 @app.route('/classify_cols_v4',methods=['GET'])
 def classify_col_ius():
     jsonString=""
