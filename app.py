@@ -21,3 +21,10 @@ def helloWorld1():
 def classify_cols():
     jsonString=""
     return jsonString
+
+
+
+@app.route('/classify_cols_v1',methods=['GET'])
+def classify_cols():
+    jsonString=""
+    return jsonString
