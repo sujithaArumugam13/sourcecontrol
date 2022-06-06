@@ -28,3 +28,9 @@ def classify_cols():
 def classify_cols():
     jsonString=""
     return jsonString
+
+
+@app.route('/classify_cols_v2',methods=['GET'])
+def classify_cols():
+    jsonString=""
+    return jsonString
