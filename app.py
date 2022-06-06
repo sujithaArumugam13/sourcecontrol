@@ -19,5 +19,5 @@ def helloWorld1():
 
 @app.route('/classify_cols',methods=['GET'])
 def classify_cols():
-    jsonString=""
+    jsonString="testting"
     return jsonString
